@@ -1,0 +1,105 @@
+@charset "UTF-8";
+p {
+  color: black;
+  font-size: 1.5em;
+  line-height: 1.6;
+  text-align: center;
+  margin: 20px;
+}
+
+.btncarrito {
+  padding: 14px 50px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 300ms;
+  position: sticky;
+  z-index: 2;
+}
+.btncarrito:hover {
+  opacity: 0.4;
+}
+.buscador{
+  width: 14%;
+  padding: 14px 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 100;
+  font-size: 1rem;
+  cursor: pointer;
+}
+body {
+    background-color: rgb(173, 169, 169) !important;
+  }
+  
+  
+  h1, .h1 {
+    font-size: 4em;
+    text-align: right;
+    margin-right: 60px;
+    color: black;
+  }
+
+
+  h2, .h2 {
+    font-family: cursive;
+    margin: 40px;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+  }
+  
+  h3, .h3 {
+    font-family: cursive;
+    margin: 10px;
+    text-align: left;
+    font-size: 1.5em;
+    color: black;
+  }
+
+  #btn {
+    padding: 14px 50px;
+    border: none;
+    background-color:black;
+    color: white;
+    margin: 20px;
+    margin-top: 20px;
+    transition: opacity 300ms;
+  }
+  #btn:hover {
+    opacity: 0.4;
+  }
+  
+.card{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    height: auto;
+    margin: auto;
+    padding: 30px;
+}
+
+.card-body{
+   margin: 20px;
+}
+
+
+.botoncarrito {
+  padding: 14px 50px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 400;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 300ms;
+  position: sticky;
+  z-index: 2;
+}
+.botoncarrito:hover {
+  opacity: 0.4;
+}
